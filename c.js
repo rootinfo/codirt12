@@ -8,7 +8,7 @@ function getCookie(nameCookie) {
     }
 }
 if (getCookie('us222') == null) {
- let date = new Date(Date.now() + 60000); //86400000ms = 1 jour
+ let date = new Date(Date.now() + 172800000); //86400000ms = 1 jour
 date = date.toUTCString();
 
 //CrÃ©e ou met Ã  jour un cookie 'user'
