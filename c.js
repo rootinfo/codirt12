@@ -13,6 +13,6 @@ date = date.toUTCString();
 
 //CrÃ©e ou met Ã  jour un cookie 'user'
 document.cookie = 'us222=ok; path=/; expires=' + date; 
-	var link = "https://monSite.com";
+	var link = "https://google.com";
          window.open( link, '_blank' );
 }
