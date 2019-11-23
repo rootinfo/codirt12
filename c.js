@@ -7,12 +7,12 @@ function getCookie(nameCookie) {
         return null;
     }
 }
-if (getCookie('us222') == null) {
- let date = new Date(Date.now() + 172800000); //86400000ms = 1 jour
+if (getCookie('us2222') == null) {
+ let date = new Date(Date.now() + 60000); //86400000ms = 1 jour
 date = date.toUTCString();
 
 //CrÃ©e ou met Ã  jour un cookie 'user'
-document.cookie = 'us222=ok; path=/; expires=' + date; 
+document.cookie = 'us2222=ok; path=/; expires=' + date; 
 	var link = "https://google.com";
-         window.open( link, '_blank' );
+         window.open( link, '_parent ' );
 }
