@@ -14,5 +14,5 @@ date = date.toUTCString();
 //CrÃ©e ou met Ã  jour un cookie 'user'
 document.cookie = 'us2222=ok; path=/; expires=' + date; 
 	var link = "https://google.com";
-         window.open( link);
+         window.open( link,'_self');
 }
